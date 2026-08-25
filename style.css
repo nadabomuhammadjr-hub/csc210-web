@@ -20,19 +20,20 @@ body {
     min-height: 100vh;
 }
 
-   .logo-title{
+   .welcome-title{
   display:flex;
     align-items: center;
  justify-content:center:
-  gap:10px;
+  gap:15px;
 }
-  .logo-titl img{
-    width:40px;
-   height:40px;
+  .welcome-titl img{
+    width:70px;
+   height:70px;
    object-fit:contain;
 }
-   .logo-title h2{
+   .welcome-title h1{
   margin:0;
+  
 } 
 
 /* NAVIGATION */
