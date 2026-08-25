@@ -24,11 +24,11 @@ body {
   display:flex;
     align-items: center;
  justify-content:center:
-  gap:15px;
+  gap:10px;
 }
   .logo-titl img{
-    width:70px;
-   height:70px;
+    width:40px;
+   height:40px;
    object-fit:contain;
 }
    .logo-title h2{
