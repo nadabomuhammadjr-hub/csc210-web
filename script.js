@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const contactForm =
-        document.getElementById("contactForm");
+    const contactsForm =
+        document.getElementById("contactsForm");
 
-    const contactSuccess =
-        document.getElementById("contactSuccess");
+    const contactsSuccess =
+        document.getElementById("contactsSuccess");
 
-    if (contactForm) {
+    if (contactsForm) {
 
-        contactForm.addEventListener("submit", function (event) {
+        contactsForm.addEventListener("submit", function (event) {
 
             event.preventDefault();
 
@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
-            contactForm.style.display = "none";
-            contactSuccess.style.display = "block";
+            contactsForm.style.display = "none";
+            contactsSuccess.style.display = "block";
 
         });
     }

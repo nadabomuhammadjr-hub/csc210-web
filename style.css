@@ -207,7 +207,7 @@ tr:hover {
 
 /* CONTACT */
 
-.contact-section {
+.contacts-section {
     max-width: 1000px;
     margin: auto;
     padding: 40px;
@@ -216,8 +216,8 @@ tr:hover {
     gap: 40px;
 }
 
-.contact-info,
-.contact-form {
+.contacts-info,
+.contacts-form {
     background: white;
     padding: 30px;
     border-radius: 8px;
@@ -289,7 +289,7 @@ footer {
         font-size: 35px;
     }
 
-    .contact-section {
+    .contacts-section {
         grid-template-columns: 1fr;
     }
 }
